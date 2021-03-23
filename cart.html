@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <script src="https://use.fontawesome.com/0383fc1297.js"></script>
+</head>
+
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="asset/logo.PNG" alt="logo">
+        </div>
+        <nav>
+            <ul id="menuItems">
+                <li><a href="index.html"> Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="productDetail.html">About</a></li>
+            <li><a href="cart.html">Contact</a></li>
+            <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+        <i class="fa fa-shopping-cart" aria-hidden="true" id="awesome"></i>
+        <img src="asset/menu icon.jfif" alt="menuIcon" class="menuIcon" onclick="menuToggle()">
+    </div>
+</div>
+
+<!-- Cart items details -->
+<div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="asset/fabric5.jfif" alt="">
+                <div>
+                        <p> Ankara Material</p>
+                        <small> Price: $50.00 </small>
+                        <a href=""> Remove</a>
+                    </div>
+                </div>
+        </td>
+            
+            <td> <input type="number" value="1"> </td>
+            <td> $50.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="asset/fabric7.jfif" alt="">
+                    <div>
+                        <p> Ankara Material</p>
+                        <small> Price: $50.00 </small>
+                        <div> <a href=""> Remove</a></div>
+                        
+                    </div>
+                </div>
+            </td>
+            <td> <input type="number" value="1"> </td>
+            <td> $50.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="asset/fabric8.jfif" alt="">
+                    <div>
+                        <p> Ankara Material</p>
+                        <small> Price: $50.00 </small>
+                        <a href=""> Remove</a>
+                    </div>
+                </div>
+            </td>
+           
+            <td> <input type="number" value="1"> </td>
+            <td> $50.00</td>
+        </tr>
+    </table>
+
+
+<div class="total-price">
+    <table>
+        <tr>
+            <td>Subtotal:</td>
+            <td>$180.00</td>
+        </tr>
+        <tr>
+            <td>Tax:</td>
+            <td>$20.00</td>
+        </tr>
+        <tr>
+            <td>Total:</td>
+            <td>$200.00</td>
+        </tr>
+    </table>
+</div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and IOS mobile phone.</p>
+                <div class="app-download">
+                    <img src="asset/Applestore.jfif" alt="Apple Store">
+                    <img src="asset/googlePlay.jfif" alt="Google Play Store">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="asset/logo.PNG" alt="logo">
+                <p>We ensure your satisfaction by making sure quality products gets to you on time and in good
+                    condition.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3> Useful Links </h3>
+                <ul>
+                    <li> Coupons </li>
+                    <li> Blog Post</li>
+                    <li> Return Policy </li>
+                    <li> Join Affiliate </li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li> Instagram </li>
+                    <li> Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <p class="copyright">Copyright 2020 - Remilekun</p>
+    </div>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+
+</html>
